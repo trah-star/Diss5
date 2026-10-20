@@ -1,0 +1,19 @@
+Boundary,Model,Test Accuracy
+linear,Logistic (linear features),0.9215
+linear,Logistic (quadratic features),0.921
+linear,Logistic (cubic features),0.9205
+linear,KNN (k=1),0.896
+linear,KNN (k=15),0.919
+linear,KNN (k=200),0.9185
+quadratic,Logistic (linear features),0.6525
+quadratic,Logistic (quadratic features),0.9265
+quadratic,Logistic (cubic features),0.9265
+quadratic,KNN (k=1),0.8865
+quadratic,KNN (k=15),0.9245
+quadratic,KNN (k=200),0.922
+cubic,Logistic (linear features),0.8055
+cubic,Logistic (quadratic features),0.8085
+cubic,Logistic (cubic features),0.904
+cubic,KNN (k=1),0.86
+cubic,KNN (k=15),0.899
+cubic,KNN (k=200),0.904
